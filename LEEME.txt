@@ -1,0 +1,15 @@
+QUICKSORT GENÉRICO - WINDOWS FORMS (C#)
+
+1. Abre QuickSortWinForms.sln con Visual Studio 2026 (o una versión de Visual Studio compatible con .NET 10) (carga de trabajo "Desarrollo de escritorio con .NET").
+2. Presiona F5 para ejecutar.
+
+Requiere el SDK de .NET 10 (proyecto net10.0-windows).
+
+Archivos:
+- QuickSorter.cs        -> el algoritmo genérico QuickSort<T> (T : IComparable<T>) y la versión que registra cada paso.
+- ArrayPanel.cs         -> dibujo de la lista (casillas de colores) y la leyenda.
+- Form1.cs / Designer   -> ventana: tipo de dato, cantidad, paso a paso y resultado final.
+
+Pivote: botones "Primer elemento", "Último elemento", "Selección aleatoria" y "Mediana de tres".
+Al cambiarlo se vuelve a ordenar la MISMA lista. En "Resultado final" se compara el trabajo
+(particiones, comparaciones, intercambios) de las 4 estrategias y se marca la mejor.
